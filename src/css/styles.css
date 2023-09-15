@@ -8,14 +8,12 @@ body {
 }
 
 .is-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  overflow: hidden;
+  display: none;
+}
+
+.cat-info__img {
+  width: 600px;
+  min-height: 400px;
 }
 
 .cat-info {
